@@ -1,6 +1,11 @@
 //개발할 화면에 해당하는 vue 파일을 import하고 route 안에 특정 path와 매핑해주면 된다.
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { 
+  createRouter, 
+  createWebHistory
+} from 'vue-router'
+import Home from '../views/HomeView.vue'
+import DataBinding from '../views/DataBinding.vue'
+import DataBindingHtml from '../views/DataBindingHtml.vue'
 
 /*
   path : url 주소 정의
@@ -13,16 +18,26 @@ import HomeView from '../views/HomeView.vue'
 const routes = [
   {
     path: '/',
-    name: 'home',
-    component: HomeView
+    name: 'Home',
+    component: Home
   },
   {
     path: '/about',
-    name: 'about',
+    name: 'About',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+  },
+  {
+    path: '/databinding',
+    name: 'DataBinding',
+    component: DataBinding
+  },
+  {
+    path: '/databindinghtml',
+    name: 'DataBindingHtml',
+    component: DataBindingHtml
   }
 ]
 

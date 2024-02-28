@@ -6,6 +6,10 @@ import {
 import Home from '../views/HomeView.vue'
 import DataBinding from '../views/DataBinding.vue'
 import DataBindingHtml from '../views/DataBindingHtml.vue'
+import DataBindingInputText from '../views/DataBindingInputText.vue'
+import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
+import DataBindingTextarea from '../views/DataBindingTextarea.vue'
+import DataBindingSelect from '../views/DataBindingSelect.vue'
 
 /*
   path : url 주소 정의
@@ -35,10 +39,30 @@ const routes = [
     component: DataBinding
   },
   {
-    path: '/databindinghtml',
+    path: '/databindingHtml',
     name: 'DataBindingHtml',
     component: DataBindingHtml
-  }
+  },
+  {
+    path: '/databindingInputText',
+    name: 'DataBindingInputText',
+    component: DataBindingInputText
+  },
+  {
+    path: '/databindingInputNumber',
+    name: 'DataBindingInputNumber',
+    component: DataBindingInputNumber
+  },
+  {
+    path: '/dataBindingTextarea',
+    name: 'DataBindingTextarea',
+    component: DataBindingTextarea
+  },
+  {
+    path: '/dataBindingSelect',
+    name: 'DataBindingSelect',
+    component: DataBindingSelect
+  },
 ]
 
 const router = createRouter({

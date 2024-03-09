@@ -11,6 +11,10 @@ import DataBindingInputNumber from '../views/DataBindingInputNumber.vue'
 import DataBindingTextarea from '../views/DataBindingTextarea.vue'
 import DataBindingSelect from '../views/DataBindingSelect.vue'
 import DataBindingCheckbox from '../views/DataBindingCheckbox.vue'
+import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
+import DataBindingRadio from '../views/DataBindingRadio.vue'
+import DataBindingAttribue from '../views/DataBindingAttribue.vue'
+import DataBindingButton from '../views/DataBindingButton.vue'
 
 /*
   path : url 주소 정의
@@ -68,6 +72,26 @@ const routes = [
     path: '/dataBindingCheckbox',
     name: 'DataBindingCheckbox',
     component: DataBindingCheckbox
+  },
+  {
+    path: '/dataBindingCheckbox2',
+    name: 'DataBindingCheckbox2',
+    component: DataBindingCheckbox2
+  },
+  {
+    path: '/dataBindingRadio',
+    name: 'DataBindingRadio',
+    component: DataBindingRadio
+  },
+  {
+    path: '/dataBindingAttribue',
+    name: 'DataBindingAttribue',
+    component: DataBindingAttribue
+  },
+  {
+    path: '/dataBindingButton',
+    name: 'DataBindingButton',
+    component: DataBindingButton
   },
 ]
 

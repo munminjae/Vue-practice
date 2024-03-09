@@ -8,7 +8,7 @@
         data() {
             return {
                 message : "여러 줄을 입력할 수 있는 textarea입니다."
-                +"\n123"
+                +"\nvue.js 공부중"
             };
         }
     }

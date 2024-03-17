@@ -15,6 +15,15 @@ import DataBindingCheckbox2 from '../views/DataBindingCheckbox2.vue'
 import DataBindingRadio from '../views/DataBindingRadio.vue'
 import DataBindingAttribue from '../views/DataBindingAttribue.vue'
 import DataBindingButton from '../views/DataBindingButton.vue'
+import DataBindingClass from '../views/DataBindingClass.vue'
+import DataBindingClass2 from '../views/DataBindingClass2.vue'
+import DataBindingStyle from '../views/DataBindingStyle.vue'
+import DataBindingStyle2 from '../views/DataBindingStyle2.vue'
+import DataBindingList from '../views/DataBindingList.vue'
+import RenderingVIf from '../views/RenderingVIf.vue'
+import EventClick from '../views/EventClick.vue'
+import EventChange from '../views/EventChange.vue'
+import Watch from '../views/Watch.vue'
 
 /*
   path : url 주소 정의
@@ -92,6 +101,51 @@ const routes = [
     path: '/dataBindingButton',
     name: 'DataBindingButton',
     component: DataBindingButton
+  },
+  {
+    path: '/dataBindingClass',
+    name: 'DataBindingClas',
+    component: DataBindingClass
+  },
+  {
+    path: '/dataBindingClass2',
+    name: 'DataBindingClas2',
+    component: DataBindingClass2
+  },
+  {
+    path: '/dataBindingStyle',
+    name: 'DataBindingStyle',
+    component: DataBindingStyle
+  },
+  {
+    path: '/dataBindingStyle2',
+    name: 'DataBindingStyle2',
+    component: DataBindingStyle2
+  },
+  {
+    path: '/dataBindingList',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/renderingVIf',
+    name: 'RenderingVIf',
+    component: RenderingVIf
+  },
+  {
+    path: '/eventClick',
+    name: 'EventClick',
+    component: EventClick
+  },
+  {
+    path: '/eventChange',
+    name: 'EventChange',
+    component: EventChange
+  },
+  {
+    path: '/watch',
+    name: 'Watch',
+    component: Watch
   },
 ]
 

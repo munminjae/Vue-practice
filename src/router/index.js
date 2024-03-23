@@ -23,7 +23,8 @@ import DataBindingList from '../views/DataBindingList.vue'
 import RenderingVIf from '../views/RenderingVIf.vue'
 import EventClick from '../views/EventClick.vue'
 import EventChange from '../views/EventChange.vue'
-import Watch from '../views/Watch.vue'
+import WatchPractice from '../views/WatchPractice.vue'
+import DataBindingList2 from '../views/DataBindingList2.vue'
 
 /*
   path : url 주소 정의
@@ -143,9 +144,14 @@ const routes = [
     component: EventChange
   },
   {
-    path: '/watch',
-    name: 'Watch',
-    component: Watch
+    path: '/watchPractice',
+    name: 'WatchPractice',
+    component: WatchPractice
+  },
+  {
+    path: '/dataBindingList2',
+    name: 'DataBindingList2',
+    component: DataBindingList2
   },
 ]
 

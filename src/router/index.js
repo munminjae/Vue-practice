@@ -25,6 +25,7 @@ import EventClick from '../views/EventClick.vue'
 import EventChange from '../views/EventChange.vue'
 import WatchPractice from '../views/WatchPractice.vue'
 import DataBindingList2 from '../views/DataBindingList2.vue'
+import NestedComponent from '../views/NestedComponent.vue'
 
 /*
   path : url 주소 정의
@@ -153,6 +154,12 @@ const routes = [
     name: 'DataBindingList2',
     component: DataBindingList2
   },
+  {
+    path: '/NestedComponent',
+    name: 'NestedComponent',
+    component: NestedComponent
+  },
+  
 ]
 
 const router = createRouter({
